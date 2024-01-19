@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo&display=swap');
+
+* {
+    font-family: 'Cairo', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: azure;
+    text-decoration: none;
+}
+
+body {
+    background-image: linear-gradient(to right, rgb(9, 3, 55), rgb(15, 15, 24));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-image:
+        linear-gradient(to right, hsla(245, 89%, 7%, 0.785), rgba(21, 21, 22, 0.438)),
+        url(butron-castle.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+    width: 90%;
+    height: 800px;
+}
+
+.container:hover {
+    background-image:
+        linear-gradient(to right, rgba(5, 2, 36, 0.63), transparent),
+        url(butron-castle.jpg);
+    background-repeat: repeat-y;
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.logo {
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+ul {
+    width: 60%;
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+ul li {
+    border-bottom: 2px solid transparent;
+}
+
+ul li:hover{
+    border-bottom: 2px solid white;
+}
+
+.contant{
+    color: white;
+    width: 50%;
+    padding: 20px;
+    margin-top: 60px;
+    text-transform: uppercase;
+    
+}
+
+.contant h2{
+    font-size: 80px;
+}
+
+.contant p{
+    margin-top: 10px;
+    letter-spacing: 3px;
+}
+.contant button {
+    font-size: 20px;
+    margin-top: 30px;
+    padding: 0px 7px;
+    border-radius: 3px;
+
+}
